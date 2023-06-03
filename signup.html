@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="signup.css" />
+    <script src="login.js"></script> 
+  </head>
+  <body> 
+    <div class="container">
+ <div class="box">
+        <div class="row">
+          <div class="col-sm-5 col-xs-1 box1">
+            <div class="inline-text">
+              <h1>Looks like<br/>
+                You're new here!</h1>
+              <p>
+                sign up with your mobile<br/>
+                number to get started
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-1 box2">
+            <div class="user-id user-data">
+              <form method="post" action="register1.php">
+              <input type="email " name="email" id="email" required=""/>
+              <label>Enter Email</label>
+            </div>
+            <div class="user-id user-data">
+              <input type="password" name="password" id="password" required=""/>
+              <label>Enter Password</label>
+              
+            <!-- </div>
+            
+                <span><a href="#">Forgot?</span></a> -->
+            <div class="user-id button">
+              <input type="submit" name="submit" id="submit" value="Login" onclick="validate()" />
+            </div>
+          </form>
+            <!-- <div class="user-id">
+            <p>OR</p>
+        </div>  -->
+            <!-- <div class="user-id button">
+              <input type="reset" name="" id="" value="Request OTP" />
+            </div>  -->
+             <div class="user-id">
+              <p class="footer"><a href="login.html">Existing User? Log in</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
